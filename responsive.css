@@ -1,0 +1,70 @@
+/* Responsive Header */
+
+@media all and (max-width: 1000px) {
+    .head-title h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .main h1 {
+        font-size: 27px;
+        padding-top: 5em;
+    }
+    .main p {
+        font-size: 22px;
+    }
+    .marketplace {
+        float: none;
+        flex: auto;
+        width: 50%;
+    }
+    .marketplaces {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer1 {
+        padding-left: 0;
+    }
+    .footer2 {
+        padding-right: 1em;
+        padding-left: 0;
+    }
+    .content .container {
+        padding-bottom: 8em;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .head-title h1 {
+        font-size: 18px;
+        margin-right: 3em;
+        padding-left: 3em;
+    }
+    .main h1 {
+        font-size: 20px;
+    }
+    .main p {
+        font-size: 15px;
+    }
+    .main {
+        padding-bottom: 60px;
+    }
+    .footer1 {
+        padding-left: 0;
+    }
+    .footer2 {
+        margin-right: 2em;
+    }
+    .footer2 ul {
+        padding-left: 1em;
+    }
+    .footer3 {
+        display: none;
+    }
+    .AboutUs {
+        font-size: 20px;
+        padding-left: -5em;
+    }
+    .marketplace {
+        width: 100%;
+    }
+}
