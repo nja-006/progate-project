@@ -1,0 +1,234 @@
+/* CSS Header */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande";
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    background-color: #020033;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 43%, rgba(0, 78, 255, 1) 63%, rgba(9, 9, 121, 1) 64%);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+header img {
+    background-color: #020033;
+    width: 100x;
+    height: 100px;
+    float: left;
+    margin-right: -100px;
+}
+
+.head-title h1 {
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #8ee0f1;
+    text-shadow: 4px 4px steelblue;
+}
+
+
+/* CSS Header End */
+
+
+/* CSS MainPart */
+
+.main h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    padding-top: 1em;
+}
+
+.main p {
+    opacity: 0.5;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.main {
+    background-image: url(asset/main.jpg);
+    background-size: cover;
+    padding: 50px 0 100px 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 3em;
+}
+
+.temui {
+    border-bottom: 2px solid #5f5d60;
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(to right, #015858 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #000080; */
+}
+
+.marketplace {
+    float: left;
+    width: 25%;
+    padding-top: 5em;
+    text-align: center;
+}
+
+.market-icon {
+    padding-bottom: 2em;
+}
+
+.toko {
+    width: 12em;
+    height: 12em;
+}
+
+.btn {
+    opacity: 1;
+    box-shadow: 3px 3px #404040;
+    padding: 12px 24px;
+    width: 25%;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn:active {
+    position: relative;
+    box-shadow: none;
+    top: 3px;
+    left: 3px;
+}
+
+.shopee {
+    background-color: #ff6600;
+}
+
+.tokopedia {
+    background-color: #33cc33;
+}
+
+.bukalapak {
+    background-color: #ff0000;
+}
+
+.ig {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.content .container {
+    padding: 0;
+    padding-bottom: 25em;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    background-image: url(asset/4884271.png);
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background: rgb(41, 0, 87);
+    background: radial-gradient(circle, rgba(41, 0, 87, 1) 43%, rgb(105, 48, 170) 63%, rgb(63, 3, 160) 64%);
+    animation: animate 10s ease infinite;
+    -moz-animation: animate 10s ease infinite;
+    -o-animation: animate 10s ease infinite;
+    background-size: 400% 400%;
+    padding-bottom: 10em;
+    font-size: 20px;
+}
+
+footer img {
+    width: 120px;
+    height: 120px;
+}
+
+.footer1 {
+    float: left;
+    padding-left: 10em;
+    font-weight: bold;
+    color: #b3aeb5;
+}
+
+.footer2 {
+    float: right;
+    padding-right: 10em;
+    color: #b3aeb5;
+}
+
+.AboutUs {
+    font-size: 45px;
+    font-weight: bold;
+    color: #b3aeb5;
+    text-shadow: 1.5px 1.5px #818081;
+    font-style: oblique;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@-webkit-keyframes animate {
+    0% {
+        background-position: 0% 82%
+    }
+    50% {
+        background-position: 100% 19%
+    }
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes animate {
+    0% {
+        background-position: 0% 82%
+    }
+    50% {
+        background-position: 100% 19%
+    }
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes animate {
+    0% {
+        background-position: 0% 82%
+    }
+    50% {
+        background-position: 100% 19%
+    }
+    100% {
+        background-position: 0% 82%
+    }
+}
